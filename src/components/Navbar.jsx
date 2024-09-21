@@ -4,7 +4,7 @@ function Navbar({ onButtonClick }) {
   return (
     <nav className="bg-violet-800 p-4 flex justify-between items-center">
       <h1 className="text-white text-2xl font-bold text-center flex-grow">
-        Task List
+        Task List !
       </h1>
       <button
         onClick={onButtonClick}

@@ -1,0 +1,66 @@
+add the functionality in the given form . 
+1. give the heading to date "Asign Date". add the status dropdown (pending , process, completed )after the date section .  
+display the form data in the given table .
+
+below is a form .create a new component(TodoItem.jsx) you have to show the form data in tabuler form . add the heading - (Task , asign date(which will generate current date and time automatically ), deadline , status , actions(edit and delete icons) and description should be displayed in next row . it will display only when . whenever user click on task row).
+
+here is a navbar. in navbar if user click on button then form is displayed(add the effective style in form ) . when user submit the form then form should be hidden and  data is displayed in tabular form . 
+
+create a form in which task, description , deadline(user can select time and date) , status(pending, complete, in process(in dropdown)) and submit button. form should be displayed when user click on ADD NEW TODO button. and when user press the save button after that data should be displayed on page in tabular form.and form will be hidden.
+here is a navbar in which ADD NEW TODO button is available.
+
+create a attractive form in which task, description , deadline(user can select time and date) , status(pending, complete, in process(in dropdown)) and submit button. form should be displayed when user click on ADD NEW TODO button. 
+here is a navbar in which ADD NEW TODO button is available.
+
+display the form data in tabular form after the user press the save button .
+
+in navbar create a functionality whenever button is clicked then form is displayed.
+here is a updated navbar . 
+
+after fill the form when user press the save task button then data should be displayed in the page in table format . and the heading of the table should be (task , asigned date(it will be the present date and time of task whenever it is asigned) , deadline , status, action(delete and edit icons) , and the description should be displayed on the next row ,when user click on the row of the task)
+
+
+-----------------------------------------
+here is the navbar , in this whenever user click on the "Add task " then the form will display.
+so create a form for add  task, description , deadline(user can select time and date) , status(pending, complete, in process(in dropdown)) and submit button .  and when user press the save button after that data should be displayed on page in tabular form (with heading and add the asign date and time also it will be current time and date ).and after that form will be hidden.
+
+here is a navbar in which ADD NEW TODO button is available.
+
+update the form , in the form update the following features - 
+1. add the cancel button through which user can close the form without save the task .
+2. decreasing the width of the form . form should be display in a center of the page .
+
+in the TaskTable.jsx update the following features - 
+1. deadline is displaying like - 	2024-09-24T11:55 , improve the format of the time and date format.
+2. replace the Description <th> with "Actions" . add the update and delete icons in every tasks.
+3. shift the Description on the next row . and it will be display with smooth animation whenever user click on the task row.
+4. arrange the table heading and table data in good format . right now it is not in a proper column.
+5. display the back ground color of the row according to the task status eg. 
+ task completed - green back ground
+  task pending - yellow back ground
+   task in process - sky blue back ground
+  deadline expired - red background with strike
+
+
+ update the following features - 
+1. display the assign date like Deadline date	.
+2. store the task data in local storage , so if user refresh the page then data will not be deleted.
+2.  add the delete functionality in delete icons. 
+2.  add the update functionality in update icons. when user click on update icons then form will display again and user can update the data.
+
+
+ update the following features in TaskForm - 
+ 1. add the validation in Deadline so user cannot select the previous dates .
+ 2. buttons should be in flex start
+ 3. add margin buttom in form.
+
+
+ update the following features - 
+ save the form data permanently , so if user reload the page then data will not be deleted and still visible in a table. data should be deleted only when delete icons is pressed.
+
+in the TaskTable.jsx update the following features - 
+1. if there will be no data then display "No Task added".
+2. give some margin to the left side . 
+
+update the following features - 
+1. when user click on the Add Task button then form will be displayed. and bg should be blur . form will not display in the between the navbar and table heading . it should be overlap to both .
